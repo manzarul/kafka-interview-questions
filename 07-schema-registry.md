@@ -1,4 +1,4 @@
-# 07 — Schema Registry & Schema Evolution
+# 07 - Schema Registry & Schema Evolution
 
 ## Why Schema Registry is critical
 
