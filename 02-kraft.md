@@ -129,7 +129,7 @@ Kafka clusters are **independent**. You cannot “merge” clusters across data 
 
 ```mermaid
 flowchart TB
-  subgraph CQ[Controller Quorum (Raft)]
+  subgraph CQ["Controller Quorum (Raft)"]
     C1[Controller 1]
     C2[Controller 2]
     C3[Controller 3]
@@ -138,7 +138,7 @@ flowchart TB
     C1 <--> C3
   end
 
-  subgraph Brokers[Kafka Brokers]
+  subgraph Brokers["Kafka Brokers"]
     B1[Broker 1]
     B2[Broker 2]
     B3[Broker 3]
@@ -179,7 +179,7 @@ This is the **default and recommended** mode for small–medium clusters.
 
 ---
 
-## ✔️ **Your Example**
+## ✔️ **Example**
 
 You have:
 
@@ -227,5 +227,3 @@ process.roles=controller
 Your 3 controllers **can also contribute to messaging**, as long as you configure them as combined nodes.
 
 ---
-
-If you’d like, I can show you the exact configuration files for each architecture (combined vs dedicated).
