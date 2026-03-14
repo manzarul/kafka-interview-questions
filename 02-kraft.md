@@ -1,4 +1,4 @@
-# 02 — KRaft (Kafka without ZooKeeper)
+# 02 - KRaft (Kafka without ZooKeeper)
 
 ## What is KRaft?
 
