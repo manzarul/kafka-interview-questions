@@ -1,4 +1,4 @@
-# 04 — Performance & Optimization (Producer/Consumer, Backpressure, Zero-copy, Message size)
+# 04 - Performance & Optimization (Producer/Consumer, Backpressure, Zero-copy, Message size)
 
 ## Producer throughput tuning
 
