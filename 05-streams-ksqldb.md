@@ -1,4 +1,4 @@
-# 05 — Kafka Streams & ksqlDB
+# 05 - Kafka Streams & ksqlDB
 
 ## Kafka Streams (what and why)
 
