@@ -49,7 +49,7 @@
 
 ### ZooKeeper (legacy) / KRaft (modern)
 - Controller/metadata system.
-- KRaft replaces ZooKeeper (details in `02-kraft.md`).
+- KRaft replaces ZooKeeper (details in [Kraft](02-kraft.md)).
 
 ### Consumer Group
 - A set of consumers sharing work.
@@ -61,17 +61,17 @@
 
 ```mermaid
 flowchart LR
-  P[Producer(s)] -->|produce| T[(Topic)]
+  P["Producer(s)"] -->|produce| T[(Topic)]
   T -->|partitioned| B1[Broker 1]
   T -->|partitioned| B2[Broker 2]
   T -->|partitioned| B3[Broker 3]
 
-  C1[Consumer Group A] -->|poll| B1
+  C1["Consumer Group A"] -->|poll| B1
   C1 -->|poll| B2
   C2[Consumer Group B] -->|poll| B2
   C2 -->|poll| B3
 
-  K[Controller (KRaft)] -. metadata .-> B1
+  K["Controller (KRaft)"] -. metadata .-> B1
   K -. metadata .-> B2
   K -. metadata .-> B3
 ```
@@ -113,7 +113,7 @@ A **consumer group** is a set of consumers that share the work of consuming a to
 
 ```mermaid
 flowchart TB
-  subgraph Topic[Topic: orders (6 partitions)]
+  subgraph Topic["Topic: orders (6 partitions)"]
     P0[P0]:::p
     P1[P1]:::p
     P2[P2]:::p
@@ -122,7 +122,7 @@ flowchart TB
     P5[P5]:::p
   end
 
-  subgraph Group[Consumer Group: order-processors]
+  subgraph Group["Consumer Group: order-processors"]
     C1[Consumer 1]
     C2[Consumer 2]
     C3[Consumer 3]
