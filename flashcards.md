@@ -1,4 +1,4 @@
-# Kafka & Confluent — Flashcards (Q&A)
+# Kafka & Confluent - Flashcards (Q&A)
 
 Use this file for quick drilling. Read the question, answer aloud, then check.
 
@@ -80,7 +80,7 @@ Use this file for quick drilling. Read the question, answer aloud, then check.
 
 **Q:** Where are offsets stored?
 
-**A:** In Kafka internal topic `__consumer_offsets` (Kafka >= 0.9).
+**A:** In Kafka internal topic `_consumer_offsets` (Kafka >= 0.9).
 
 ---
 
