@@ -1,4 +1,4 @@
-# 08 — Ops: Monitoring & Troubleshooting
+# 08 - Ops: Monitoring & Troubleshooting
 
 ## Monitoring Kafka cluster health
 
@@ -101,13 +101,13 @@ Emergency measures (use carefully):
 
 ```mermaid
 flowchart LR
-  subgraph DC1[DC1: Cluster A]
+  subgraph DC1["DC1: Cluster A"]
     A[(Kafka Cluster A)]
   end
-  subgraph DC2[DC2: Cluster B]
+  subgraph DC2["DC2: Cluster B"]
     B[(Kafka Cluster B)]
   end
-  subgraph DC3[DC3: Cluster C (R&D)]
+  subgraph DC3["DC3: Cluster C (R&D)"]
     C[(Kafka Cluster C)]
   end
 
