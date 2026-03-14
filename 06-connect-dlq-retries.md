@@ -1,4 +1,4 @@
-# 06 — Kafka Connect, Retries/Backoff, and DLQ
+# 06 - Kafka Connect, Retries/Backoff, and DLQ
 
 ## Kafka Connect (what it is)
 
