@@ -1,4 +1,4 @@
-# 01 — Fundamentals
+# 01 - Fundamentals
 
 ## Q1: What is Apache Kafka and what problems does it solve?
 
