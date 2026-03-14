@@ -1,4 +1,4 @@
-# Kafka & Confluent Interview Prep — Clean Notes Pack
+# Kafka & Confluent Knowledge Notes
 
 This repository-style pack splits the content into focused documents and adds **Mermaid diagrams** + **flashcards** for fast revision.
 
@@ -17,8 +17,6 @@ This repository-style pack splits the content into focused documents and adds **
 ## Diagrams
 All diagrams are embedded using **Mermaid** so they render nicely on GitHub and many Markdown viewers.
 
-> Tip: If your Markdown viewer doesn’t render Mermaid, paste the diagrams into https://mermaid.live
-
 ## Usage
-- Read end-to-end in order (01 → 08), then drill with **flashcards.md**.
+- Read end-to-end in order (01 → 08), then drill with [flashcards](flashcards.md).
 - Copy/paste config snippets into your internal wiki/runbooks.
